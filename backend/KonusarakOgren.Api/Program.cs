@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 
+
 // BUILDER
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<MessageContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+builder.Services.AddDbContext<MessageContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddHttpClient("HuggingFace", client =>
 {
     client.BaseAddress = new Uri("https://yuasset-benim-duygu-analizim.hf.space/?__theme=system&deep_link=CibTr1xZZr4/api/predict/");
