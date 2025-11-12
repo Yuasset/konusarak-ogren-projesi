@@ -13,7 +13,7 @@ var connectionString = $"Host={dbHost};Database={dbName};Username={dbUser};Passw
 builder.Services.AddDbContext<MessageContext>(options => options.UseNpgsql(connectionString));
 builder.Services.AddHttpClient("HuggingFace", client =>
 {
-    client.BaseAddress = new Uri("https://Yuasset-benim-duygu-analizim.hf.space/run");
+    client.BaseAddress = new Uri("https://Yuasset-benim-duygu-analizim.hf.space/api/analyze_sentiment/");
 });
 
 // CORS
