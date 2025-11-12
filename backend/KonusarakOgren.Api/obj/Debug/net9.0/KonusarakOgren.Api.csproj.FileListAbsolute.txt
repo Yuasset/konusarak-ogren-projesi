@@ -1,0 +1,8 @@
+D:\Users\YusaCagatay\Desktop\konusarak-ogren-proje\backend\KonusarakOgren.Api\obj\Debug\net9.0\KonusarakOgren.Api.csproj.AssemblyReference.cache
+D:\Users\YusaCagatay\Desktop\konusarak-ogren-proje\backend\KonusarakOgren.Api\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Users\YusaCagatay\Desktop\konusarak-ogren-proje\backend\KonusarakOgren.Api\obj\Debug\net9.0\KonusarakOgren.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\YusaCagatay\Desktop\konusarak-ogren-proje\backend\KonusarakOgren.Api\obj\Debug\net9.0\KonusarakOgren.Api.AssemblyInfoInputs.cache
+D:\Users\YusaCagatay\Desktop\konusarak-ogren-proje\backend\KonusarakOgren.Api\obj\Debug\net9.0\KonusarakOgren.Api.AssemblyInfo.cs
+D:\Users\YusaCagatay\Desktop\konusarak-ogren-proje\backend\KonusarakOgren.Api\obj\Debug\net9.0\KonusarakOgren.Api.csproj.CoreCompileInputs.cache
+D:\Users\YusaCagatay\Desktop\konusarak-ogren-proje\backend\KonusarakOgren.Api\obj\Debug\net9.0\KonusarakOgren.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\YusaCagatay\Desktop\konusarak-ogren-proje\backend\KonusarakOgren.Api\obj\Debug\net9.0\KonusarakOgren.Api.MvcApplicationPartsAssemblyInfo.cache
