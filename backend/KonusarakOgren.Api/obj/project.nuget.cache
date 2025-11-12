@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dICYigYxGjs=",
+  "dgSpecHash": "YB8vGkTr+k4=",
   "success": true,
-  "projectFilePath": "D:\\Users\\YusaCagatay\\Desktop\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj",
+  "projectFilePath": "D:\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\YusaCagatay\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\YusaCagatay\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",

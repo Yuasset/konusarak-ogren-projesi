@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\YusaCagatay\\Desktop\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj": {}
+    "D:\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj": {}
   },
   "projects": {
-    "D:\\Users\\YusaCagatay\\Desktop\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj": {
+    "D:\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\YusaCagatay\\Desktop\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj",
+        "projectUniqueName": "D:\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj",
         "projectName": "KonusarakOgren.Api",
-        "projectPath": "D:\\Users\\YusaCagatay\\Desktop\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj",
+        "projectPath": "D:\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\KonusarakOgren.Api.csproj",
         "packagesPath": "C:\\Users\\YusaCagatay\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\YusaCagatay\\Desktop\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\obj\\",
+        "outputPath": "D:\\konusarak-ogren-projesi\\backend\\KonusarakOgren.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
