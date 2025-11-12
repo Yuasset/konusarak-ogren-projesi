@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KonusarakOgren.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b75550891ed6c6e0b6d7746b2ae05c6abfaad0df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbaaa7906dbec0747598be6a6e1633ad1368e186")]
 [assembly: System.Reflection.AssemblyProductAttribute("KonusarakOgren.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KonusarakOgren.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
