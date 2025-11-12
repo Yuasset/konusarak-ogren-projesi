@@ -38,7 +38,7 @@ app.MapGet("/api/messages", async (MessageContext db) =>
     return await db.Messages.OrderBy(m => m.Timestamp).ToListAsync();
 });
 
-app.MapPost("/api/messages", async (MessageInput input, MessageContext db, IHttpClientFactory httpClientFactory) =>
+app.MapPost("/api/messages", async (MessageInput input, MessageContext db, IHttpClientFactory httpClientFactory, ILogger<Program> logger) =>
 {
     var aiClient = httpClientFactory.CreateClient("HuggingFace");
 
@@ -50,12 +50,27 @@ app.MapPost("/api/messages", async (MessageInput input, MessageContext db, IHttp
 
     if (aiResponse.IsSuccessStatusCode)
     {
-        var aiResult = await aiResponse.Content.ReadFromJsonAsync<HuggingFaceResponse>();
-        if (aiResult != null && aiResult.data.Length > 0)
+        var rawJson = await aiResponse.Content.ReadAsStringAsync();
+
+        if (rawJson.Contains("\"data\""))
         {
-            sentimentLabel = aiResult.data[0].label;
-            sentimentScore = aiResult.data[0].score;
+            var aiResult = System.Text.Json.JsonSerializer.Deserialize<HuggingFaceResponse>(rawJson);
+
+            if (aiResult != null && aiResult.data.Length > 0)
+            {
+                sentimentLabel = aiResult.data[0].label;
+                sentimentScore = aiResult.data[0].score;
+            }
         }
+        else
+        {
+            logger.LogWarning($"AI servisi 200 OK döndü ama 'data' yok. Gelen JSON: {rawJson}");
+        }
+    }
+    else
+    {
+        var errorContent = await aiResponse.Content.ReadAsStringAsync();
+        logger.LogWarning($"AI servisine ulaşılamadı. Status: {aiResponse.StatusCode}, Hata: {errorContent}");
     }
 
     // DATABASE
