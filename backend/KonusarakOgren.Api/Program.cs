@@ -4,7 +4,13 @@ using Microsoft.EntityFrameworkCore;
 // BUILDER
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<MessageContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+var dbHost = builder.Configuration["DB_HOST"];
+var dbName = builder.Configuration["DB_NAME"];
+var dbUser = builder.Configuration["DB_USER"];
+var dbPass = builder.Configuration["DB_PASS"];
+var connectionString = $"Host={dbHost};Database={dbName};Username={dbUser};Password={dbPass};SSL Mode=Require;";
+
+builder.Services.AddDbContext<MessageContext>(options => options.UseNpgsql(connectionString));
 builder.Services.AddHttpClient("HuggingFace", client =>
 {
     client.BaseAddress = new Uri("https://yuasset-benim-duygu-analizim.hf.space/?__theme=system&deep_link=CibTr1xZZr4/api/predict/");
