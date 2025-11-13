@@ -6,7 +6,7 @@ Proje; React (Web), React Native (Mobil), .NET Core (Backend API) ve Python (Fas
 
 ## 🚀 Çalışan Demo Linkleri
 
-* **Web Uygulaması (Vercel):** `[Vercel App](https://konusarak-ogren-projesi-2aowzs94v-yuassets-projects.vercel.app/)`
+* **Web Uygulaması (Vercel):** `konusarak-ogren-projesi-three.vercel.app`
 * **Backend API (Render):** `https://konusarak-ogren-projesi-mlsp.onrender.com`
 * **AI Servisi (Hugging Face):** `https://yuasset-benim-duygu-analizim.hf.space`
 * **Mobil Build (APK/Test):** Mobil uygulama, React Native CLI ile geliştirilmiş olup emülatörde çalıştırılmalıdır.
